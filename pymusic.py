@@ -1,18 +1,9 @@
 """
-MUSI 4450 Final Project
-Author: Colin Cassell
-Created: 4/28/22
+Main file to handle listening and drawing
 
-This project, MusePaint, will paint a picture on screen based on the audio input, whether
-that's speaking, music, or other sound effects. It uses the tkinter library to draw, PyAudio to
-take audio input, and Pillow (python imaging library) to save the images you create.
-
-While the program is running and the canvas is selected, you can use "control-s" to save the image,
-and you can use "control-c" to clear the current image.
-
-The settings at line 37 affect the audio input and low-level processing
-The settings at line 184 affect how things get drawn based on the audio
-The width and height of the drawing canvas are located at line 338
+The settings at line 28 affect the audio input and low-level processing
+The settings at line 175 affect how things get drawn based on the audio
+The width and height of the drawing canvas are located at line 329
 """
 
 import copy

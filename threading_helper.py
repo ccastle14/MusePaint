@@ -1,3 +1,5 @@
+# File to handle threads and communication of data between them
+
 from threading import Lock
 
 
