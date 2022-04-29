@@ -234,7 +234,7 @@ class UpdateDrawing(Thread):
             self.draw.line([(int(x), int(y)), (int(x1), int(y1))], fill=fill, width=int(width))
         else:
             self.wn.create_oval(x, y, x1 + width, y1, fill=fill)
-            self.draw.ellipse([(int(x), int(y)), (int(x1 + width), int(y1))], fill=fill)
+            self.draw.ellipse([(int(x), int(y)), (int(x1 + width), int(y1))], fill=fill, outline="white")
 
     def run(self):
         while True:
