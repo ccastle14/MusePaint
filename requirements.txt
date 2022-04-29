@@ -1,1 +1,4 @@
 tkinter == 8.6.11
+pyaudio == 0.2.11
+Pillow == 9.1.0
+numpy == 1.22.3

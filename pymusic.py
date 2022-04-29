@@ -10,15 +10,9 @@ take audio input, and Pillow (python imaging library) to save the images you cre
 While the program is running and the canvas is selected, you can use "control-s" to save the image,
 and you can use "control-c" to clear the current image.
 
-The settings at line 43 affect the audio input and low-level processing
-The settings at line 190 affect how things get drawn based on the audio
-The width and height of the drawing canvas are located at line 344
-
-Module requirements:
-tkinter - 8.6.11
-pyaudio - 0.2.11
-Pillow - 9.1.0
-numpy - 1.22.3
+The settings at line 37 affect the audio input and low-level processing
+The settings at line 184 affect how things get drawn based on the audio
+The width and height of the drawing canvas are located at line 338
 """
 
 import copy
