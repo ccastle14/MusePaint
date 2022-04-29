@@ -12,6 +12,10 @@ take audio input, and Pillow (python imaging library) to save the images you cre
 While the program is running and the canvas is selected, you can use "control-s" to save the image,
 and you can use "control-c" to clear the current image.
 
+The saved image won't perfectly match the image you see as you play, because the saved image is drawn
+in a different library from the live drawing. The live drawing is with tkinter, and the saved image is drawn
+with Pillow. This is the best way I could find to "save" a tkinter canvas drawing.
+
 To install the required modules, run "pip install -r requirements.txt"
 
 If you're on a Mac with an M1 chip, pyaudio may fail to install. You'll want to have homebrew
