@@ -1,5 +1,5 @@
 # MusePaint
-Python program to convert music to a computer-drawn image.
+Python3 program to convert music to a computer-drawn image.
 
 MUSI 4450 Final Project
 Author: Colin Cassell
