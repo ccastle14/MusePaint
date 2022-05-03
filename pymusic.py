@@ -200,7 +200,7 @@ class UpdateDrawing(Thread):
     d_variation = False
 
     # boolean parameter that would make rectangle the only shape used
-    force_rectangle = True
+    force_rectangle = False
 
     # color parameters in hsv (hue is mapped to pitch at line 255)
     saturation = .85
