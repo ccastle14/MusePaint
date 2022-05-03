@@ -2,7 +2,9 @@
 Python3 program to convert music to a computer-drawn image.
 
 MUSI 4450 Final Project
+
 Author: Colin Cassell
+
 Created: 4/28/22
 
 This project, MusePaint, will paint a picture on screen based on the audio input, whether
