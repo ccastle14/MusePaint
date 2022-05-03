@@ -3,7 +3,7 @@ Main file to handle listening and drawing
 
 The settings at line 28 affect the audio input and low-level processing
 The settings at line 175 affect how things get drawn based on the audio
-The width and height of the drawing canvas are located at line 329
+The width and height of the drawing canvas are located at line 330
 """
 
 import copy
@@ -200,9 +200,9 @@ class UpdateDrawing(Thread):
     d_variation = False
 
     # boolean parameter that would make rectangle the only shape used
-    force_rectangle = False
+    force_rectangle = True
 
-    # color parameters in hsv (hue is mapped to pitch at line 269)
+    # color parameters in hsv (hue is mapped to pitch at line 255)
     saturation = .85
     value = .9
 
